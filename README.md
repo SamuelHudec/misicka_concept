@@ -12,7 +12,7 @@ I was highly inspirated by [fast.ai](https://www.fast.ai/) presentations where I
 
   1. Use [inference notebook](https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/stable_conceptualizer_inference.ipynb) from hugging face.
 
-2. Download the learned_embeds.bin (ex. misicka_1_embeds.bin) file from there and upload the file to wherever this notebook is before running this next cell:
+2. Download the learned_embeds.bin file from there and upload the file to wherever this notebook is before running this next cell:
 
   ```pyhton
   learned_embed = torch.load('data/sd_styles/<learned_embeds.bin>') 
